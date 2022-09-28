@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container  {
+    width: 1170px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+.align-center {
+    align-items: center;
+}
+
+.button {
+    background: var(--primaryColor);
+    color: white;
+    padding: 12px 40px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 35px;
+    font-weight: 600;
+}
+.heading2 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primaryColor);
+}
+.heading3 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+.paragraph {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+/* Common css Ends Here */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+:root {
+    --primaryColor: #f8991c;
+}
+nav .logo {
+    width: 30%;
+}
+
+nav .menu {
+    width: 70%;
+}
+
+nav .menu ul {
+    text-align: right;
+}
+nav .menu ul li {
+    display: inline-block;
+    transition: 0.3s;
+}
+nav .menu ul li a {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+    padding: 50px 30px;
+    display: block;
+}
+nav .menu ul li:hover a {
+    color: var(--primaryColor);
+}
+/* Banner Stars Here */
+#banner {
+    min-height: 664px;
+    background-color: #f8f8f8;
+    position: relative;
+}
+#banner .banner_text {
+    width: 60%;
+}
+#banner .banner_image {
+    width: 40%;
+}
+#banner .banner_image img {
+    width: 100%;
+}
+#banner .banner_text h2 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;
+}
+#banner .banner_text h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 61px;
+    color: #000000;
+}
+#banner .banner_text p {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+#banner .banner_text .social_icon {
+    margin-top: 100px;
+    position: absolute;
+}
+#banner .social_icon ul {
+    margin-left: 140px;
+}
+#banner .social_icon ul li {
+    display: inline-block;
+}
+#banner .social_icon ul li a {
+    font-size: 25px;
+    color: #4267b2;
+    padding: 10px  3px;
+}
+#banner .social_icon p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+/* Banner Ends Here */
+
+/* About Stars Here */
+#about {
+    padding: 75px 0;
+}
+#about .about_image {
+    width: 40%;
+}
+#about .about_text {
+    width: 60%;
+    padding: 0 25px;
+}
+#about .about_text img {
+    margin-top: 40px;
+}
+#about .about_image img {
+    width: 100%;
+}
+#about .about_text p {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: justify;
+    color: #000000;
+    margin: 40px 0;
+}
+.heading h2 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: #000000;
+}
+.heading h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--primaryColor);
+}
+#about .about_text .button_p {
+    background-color: transparent;
+    border: 1px solid var(--primaryColor);
+    color: #000000;
+    margin-left: 50px;
+    padding: 12px 40px;
+    display: inline-block;
+    border-radius: 6px;
+    margin-top: 35px;
+    font-weight: 600;
+}
+
+/* About Ends Here */
+
+/* what_do Stars Here */
+#what_do {
+    min-height: 535px;
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+#what_do .ux_desing {
+    width: calc(33.33% - 40px);
+    text-align: center;
+    margin: 25px 20px;
+}
+
+#what_do .ux_desing h4 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+    color: var(--primaryColor);
+    padding: 20px;
+}
+#what_do .ux_desing p {
+    
+}
+#what_do .img {
+    text-align: center;
+}
+/* what_do Ends Here */
+
+/* My Resume Stars Here */
+
+#my_resume {
+    padding: 75px 0;
+}
+#my_resume .education_card {
+    width: calc(33.33% - 24px);
+    height: 208px;
+    text-align: center;
+    margin: 35px 12px;
+    padding: 40px 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+#my_resume .education_card h5{
+    font-weight: 500;
+}
+#my_resume .education_card span {
+    color: var(--primaryColor);
+}
+/* My Resume Ends Here */
+/* My Work Stars Here */
+#my_work{
+    min-height: 453px;
+    background-color: #F8F8F8;
+    padding: 40px 0;
+}
+
+#my_work .portfolio_card {
+    width: calc(25% - 20px);
+    margin: 40px 10px;
+    transform: scale(1);
+    transition: 0.3s;
+}
+#my_work .portfolio_card img {
+    width: 100%;
+}
+#my_work .portfolio_card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 0px 50px 100px rgb(0 0 0 / 10%);
+}
+/* My Work Ends Here */
+
+/* Testimonial Stars Here */
+#testimonial {
+    margin: 70px 0;
+}
+
+#testimonial .testimonial_card {
+    width: calc(50% - 50px);
+    margin: 68px 25px;
+    padding: 35px;
+    box-shadow: 0px 50px 100px rgb(0 0 0 / 10%);
+    transform: scale(1);
+    transition: 0.9s;
+}
+#testimonial .testimonial_card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0px 50px 100px rgba(199, 124, 124, 0.1);
+}
+#testimonial .testimonial_card .img {
+    width: 20%;
+}
+#testimonial .testimonial_card img {
+    width: 100%;
+}
+#testimonial .testimonial_card .text {
+    width: 80%;
+    margin-left: 10px;
+}
+#testimonial .testimonial_card h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+}
+
+/* Testimonial Ends Here */
+
+/* Blog Stars Here */
+#blog {
+    min-height: 587px;
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+#blog .blog_card {
+    width: calc(33.33% - 40px);
+    margin: 0 20px;
+    text-align: center;
+    box-shadow: 0px 50px 100px rgb(0 0 0 / 10%);
+    margin-top: 50px;
+}
+#blog .blog_card img {
+    width: 100%;
+}
+#blog .blog_card .blog_text {
+    padding: 20px;
+}
+#blog .blog_card .blog_text h4 {
+    color: #000000;
+}
+#blog .blog_card .blog_text p {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #000000;
+    padding: 20px;
+}
+#blog .blog_card .blog_text a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+/* Blog Ends Here */
